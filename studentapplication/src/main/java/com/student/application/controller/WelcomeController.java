@@ -14,7 +14,7 @@ public class WelcomeController {
     public String showWelcomePage(ModelMap model) {
     	
         model.put("name", getLoggedinUserName());
-        System.out.println("<<<<<<<<<< User Name "+getLoggedinUserName());
+        System.out.println("<<<<<<<<<<  User Name is "+getLoggedinUserName());
         return "welcome";
     }
 
